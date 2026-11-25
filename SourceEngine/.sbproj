@@ -2,6 +2,7 @@
   "Title": "SourceEngine",
   "Type": "addon",
   "Org": "local",
+  "OrgTitle": null,
   "Ident": "source1",
   "Schema": 1,
   "IncludeSourceFiles": false,
@@ -10,6 +11,13 @@
   "PackageReferences": [],
   "EditorReferences": null,
   "Mounts": [
+    "tf",
+    "portal2",
+    "portal",
+    "left4dead2",
+    "hl1",
+    "hl2",
+    "gmod"
   ],
   "IsStandaloneOnly": false,
   "AI": {
