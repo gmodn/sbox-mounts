@@ -47,7 +47,9 @@ See the full [Mount API docs](https://sbox.game/dev/doc/game-mounts/) to learn m
 # Notations
 
 x Some aspects of Portal 2 maps do not translate over properly. Chamber elements and World Portals do not function.
+
 xx Some Portal 2 assets will not render as seen in the game due to how the Facepunch Source mount works. This is an issue that is also present in Garry's mod.
+
 xxx Due to Left 4 Dead 2 being on a vastly different engine branch than the rest of the games, it's maps are unable to be run using the standard Source mount code Facepunch provides.
 
 ## Development
