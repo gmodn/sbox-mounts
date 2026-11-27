@@ -35,6 +35,18 @@ See the full [Mount API docs](https://sbox.game/dev/doc/game-mounts/) to learn m
 | [Return to Castle Wolfenstein](https://store.steampowered.com/app/9010) | `rtcw` | idTech 3 | ✅ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ |
 | [Wolfenstein: Enemy&nbsp;Territory](https://store.steampowered.com/app/1873030) | `wolfet` | idTech 3 | ✅ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ |
 
+## Supported games (e&)
+
+| Game | Ident | Engine | Maps | NPCs | Weapons | Models | Anims | Sounds | Materials |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Portal](https://store.steampowered.com/app/400) | `portal` | Source | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| [Portal 2](https://store.steampowered.com/app/620) | `portal2` | Source | ⚠️* | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️** |
+| [Team Fortress 2](https://store.steampowered.com/app/440) | `tf` | Source | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| [Left 4 Dead 2](https://store.steampowered.com/app/440) | `left4dead2` | Source | ❌*** | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+
+* Some aspects of Portal 2 maps do not translate over properly. Chamber elements and World Portals do not function.
+** Some Portal 2 assets will not render as seen in the game due to how the Facepunch Source mount works. This is an issue that is also present in Garry's mod.
+*** Due to Left 4 Dead 2 being on a vastly different engine branch than the rest of the games, it's maps are unable to be run using the standard Source mount code Facepunch provides.
 
 ## Development
 You will need a copy of s&box to develop mounts. You can get it on [Steam](https://store.steampowered.com/app/590830/sbox/) and switch to the [staging branch](https://sbox.game/dev/doc/getting-started/staging-branch), or  [build it from source](https://github.com/Facepunch/sbox-public).
