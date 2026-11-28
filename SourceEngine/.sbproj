@@ -11,6 +11,8 @@
   "PackageReferences": [],
   "EditorReferences": null,
   "Mounts": [
+    "p2corehub",
+    "p2008",
     "tf",
     "portal2",
     "portal",
