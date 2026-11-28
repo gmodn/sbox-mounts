@@ -22,3 +22,17 @@
 *.*_c
 *.los
 *.vpk
+source_2_mounts/Code/VpkArchive.Directory.cs
+source_2_mounts/Code/VpkArchive.cs
+source_2_mounts/Code/Source2TextureLoader.cs
+source_2_mounts/Code/Source2SoundLoader.cs
+source_2_mounts/Code/Source2Resource.cs
+source_2_mounts/Code/Source2Mount.cs
+source_2_mounts/Code/Games/HalfLifeAlyxMount.cs
+source_2_mounts/Code/Games/Dota2Mount.cs
+source_2_mounts/Code/Games/DeadlockMount.cs
+source_2_mounts/Code/Games/CounterStrike2Mount.cs
+source_2_mounts/Code/Assembly.cs
+source_2_mounts/Code/ArchiveFile.cs
+source_2_mounts/BuildAndInstall.ps1
+source_2_mounts/.sbproj
